@@ -22,7 +22,8 @@ function Navbar() {
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
             <a className="nav-link" href="#">
-              Home <span className="sr-only">(current)</span>
+              <i class="fas fa-home"></i>&nbsp;Home{" "}
+              <span className="sr-only">(current)</span>
             </a>
           </li>
           <li className="nav-item">
@@ -46,12 +47,12 @@ function Navbar() {
               <a className="dropdown-item" href="#">
                 Lommeregner
               </a>
-              <a clasName="dropdown-item" href="#">
-                Covid 19 App
+              <a className="dropdown-item" href="#">
+                Something else here
               </a>
               <div className="dropdown-divider"></div>
               <a className="dropdown-item" href="#">
-                Something else here
+                Covid19 Live App
               </a>
             </div>
           </li>
@@ -62,7 +63,7 @@ function Navbar() {
               tabindex="-1"
               aria-disabled="true"
             >
-              Enabled
+              Disabled
             </a>
           </li>
         </ul>
