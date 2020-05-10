@@ -1,12 +1,25 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import CovidProjectLogo from "./images/CovidProjectLogo.JPG";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/Navbar";
 
-function App() {
+class App extends Component {
+  render() {
+    return <Navbar />;
+  }
+}
+
+const ProjectList = () => {
+  return <Project />;
+};
+
+const Project = () => {
   return (
-    <div className="App">
-      <header className="App-header">Velkommen til Flink IT</header>
+    <div className="Project">
+      <img src={CovidProjectLogo} alt="Covid 19" />
     </div>
   );
-}
+};
 
 export default App;

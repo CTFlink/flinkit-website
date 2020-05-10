@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 
 ReactDOM.render(
+  // StrictMode is a tool for highlighting potential problems in an application. 
+  // it does not render any visible UI. It activates additional checks and warnings for its descendants.
   <React.StrictMode>
     <App />
   </React.StrictMode>,
