@@ -3,10 +3,16 @@ import "./App.css";
 import CovidProjectLogo from "./images/CovidProjectLogo.JPG";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
+import flinkitlogo from "./images/flinkitLogo.svg";
 
 class App extends Component {
   render() {
-    return <Navbar />;
+    return (
+      <div>
+        <Navbar />
+        <flinkitlogo />
+      </div>
+    );
   }
 }
 
