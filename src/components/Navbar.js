@@ -3,7 +3,10 @@ import flinkitlogo from "../images/flinkitLogo.svg";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav
+      className="navbar navbar-expand-lg navbar-dark"
+      style={{ backgroundColor: "#24527a" }}
+    >
       <a className="navbar-brand" href="#home">
         <img src={flinkitlogo} alt="logo" style={{ width: "50px" }} />
       </a>
